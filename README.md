@@ -143,7 +143,7 @@ To build an ecosystem where every user's computer becomes part of an autonomous 
 
 ---
 
-## Author
+## Founder 
 
 Rullhat
 ---
@@ -192,7 +192,7 @@ Full documentation: [AI_LAYER.md](./AI_LAYER.md)
 
 ```
 aitcoin/
-├── src/                    # Bitcoin-fork C++ core (consensus layer)
+├── src/                    # AITCOIN C++ core (consensus layer)
 │   ├── chainparams.cpp     # Chain parameters (block reward, halving, etc.)
 │   ├── main.cpp            # Core node logic
 │   └── ...
