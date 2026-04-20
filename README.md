@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="doc/assets/aitcoin-logo.png" alt="Aitcoin Logo" width="100"/>
+  <img src="doc/assets/aitcoin-logo.png" alt="Aitcoin Logo" width="85"/>
 </p>
 
 # AITCOIN (ATC)
