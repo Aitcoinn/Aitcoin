@@ -20,7 +20,7 @@
 | Proof of Work Mining | 12,000,000 ATC | 57.14% | Unlocked — earned by miners |
 | AI Ecosystem Fund | 5,000,000 ATC | 23.81% | Milestone-vested |
 | Development Fund | 4,000,000 ATC | 19.05% | Unlocked — dev team managed |
-| Free Circulation | 2,000,000 ATC | 9.52% | Immediately liquid |
+
 
 ---
 
@@ -67,17 +67,6 @@ Managed by the core development team for:
 - Security audits
 
 **Wallet**: HD wallet secured with BIP39 seed phrase (24 words), stored offline by project lead on a hardware wallet. Derivation path: `m/44'/0'/0'/0/0`.
-
----
-
-### 4. Free Circulation — 2,000,000 ATC (9.52%)
-
-Immediately liquid from genesis. No lock, no vesting:
-
-- Initial DEX/CEX liquidity provision
-- Early community distribution and airdrops
-- Public market making
-- Exchange listing seed liquidity
 
 ---
 
