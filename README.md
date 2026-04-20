@@ -2,7 +2,7 @@
   <img src="doc/assets/aitcoin-logo.png" alt="Aitcoin Logo" width="100"/>
 </p>
 
-# ⛓️AITCOIN (ATC)
+# AITCOIN (ATC)
 
 ## A scalable Web3 blockchain infrastructure enabling autonomous artificial intelligence to evolve into a living and self-sustaining digital civilization ##
 
