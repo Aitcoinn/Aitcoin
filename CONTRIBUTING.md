@@ -1,4 +1,4 @@
 Contributing to ATC
-===========================
+<_________________>
 
-@aitcoinglobal
+ @aitcoin_network
