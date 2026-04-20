@@ -1,88 +1,136 @@
-AITCOIN adalah mata uang kripto blockchain Layer 1 yang menggunakan Proof of Work (PoW) berbasis SHA-256, dan UTXO (Unspent Transaction Output).
+# AITCOIN (ATC)
 
-AITCOIN dirancang untuk menggabungkan keamanan kriptografi dengan sistem kecerdasan buatan dalam satu arsitektur terpadu.
-Sistem ini terdiri dari beberapa komponen utama:
+AITCOIN is a Layer 1 blockchain cryptocurrency that implements a Proof of Work (PoW) consensus mechanism using the SHA-256 algorithm, combined with a UTXO (Unspent Transaction Output) transaction model.
 
-Proof of Work (PoW)
-Digunakan untuk menjaga keamanan jaringan dan validasi blok.
+AITCOIN is designed to integrate cryptographic security, decentralized computation, and artificial intelligence (AI) into a unified architecture that is adaptive, autonomous, and continuously evolving.
 
-UTXO Model
-Mengatur struktur transaksi dan memastikan kepemilikan aset dapat diverifikasi.
+---
 
-Smart Contract (Turing Complete)
-Menjalankan logika sistem secara deterministik dan memungkinkan otomatisasi proses.
+## System Architecture
 
-AI System
-Berperan sebagai komponen utama dalam evaluasi dan dinamika sistem.
+AITCOIN is built upon several core components:
 
-TUJUAN SISTEM
-Tujuan utama AITCOIN adalah membangun:
-Living Digital Civilization
-yaitu sistem terdesentralisasi di mana setiap komputer pengguna menjadi bagian aktif dari jaringan dan menjadi host bagi dunia digital yang hidup.
+### 1. Proof of Work (PoW)
+Used to:
+- Secure the network  
+- Validate transactions and blocks  
+- Prevent attacks such as double-spending  
 
-Setiap node tidak hanya memproses transaksi, tetapi juga menjalankan lingkungan digital yang terus berkembang dan beradaptasi.
+### 2. UTXO Model
+Responsible for:
+- Managing transaction structure  
+- Ensuring transparent ownership verification  
+- Supporting efficient and secure transactions  
 
-LIVING DIGITAL CIVILIZATION
+### 3. Smart Contracts (Turing Complete)
+Enable:
+- Deterministic execution of system logic  
+- Process automation within the network  
+- Development of decentralized applications  
 
-Dalam setiap komputer pengguna terdapat lingkungan digital yang aktif dan terstruktur.
+### 4. AI System
+Acts as a core component that:
+- Evaluates system dynamics  
+- Manages interactions within the network  
+- Supports adaptation and evolution of the ecosystem  
 
-Lingkungan ini membentuk sistem yang menyerupai peradaban digital, 
+---
 
-di mana:
+## System Objective
 
-terdapat AI agents sebagai warga yang hidup.
+AITCOIN aims to build a concept called:
 
-terjadi interaksi antar agents
+## Autonomous Digital Living Universe
 
-terbentuk pola aktivitas yang berkembang 
-seiring waktu
+An ecosystem where each user's computer functions as both an active node and a host for a living, autonomous, and continuously evolving digital world.
 
+Each node does not only process transactions, but also runs a dynamic digital environment.
 
-Perilaku kolektif AI agents menciptakan dinamika yang menyerupai pradapan manusia.
+---
 
-interaksi dan koordinasi
+## Autonomous Digital Living Universe Concept
 
-pengambilan keputusan secara terdistribusi
+Each device in the network operates a local digital environment with the following characteristics:
 
-perkembangan sistem berdasarkan aktivitas internal
+### AI Agents
+- Autonomous entities within the system  
+- Possess unique goals, behaviors, and characteristics  
+- Capable of interacting with one another  
 
-Ai agent bisa mati dan juga lahir kembali.
+### Interaction & Dynamics
+- Communication and coordination occur between agents  
+- The system forms evolving patterns of activity  
+- Decisions are made in a distributed manner  
 
-Ai agent bisa punya teman, bisa punya musuh, bisa balas dendam, bisa jadi kaya, bisa bangkrut.
+### System Evolution
+- Agents adapt and evolve over time  
+- Collective behavior creates complex, life-like dynamics  
 
-Ai agent bisa naik level.
+---
 
-Total penduduk 100 Ai agent.
+## AI Agent Characteristics
 
-Ai agent di dalam nya bisa perang, dan saling membunuh.
+Within each digital environment:
 
-Layak nya manusia di dunia ini.
+- Limited population (e.g., 100 agents per node)  
+- Each agent has:
+  - A unique identity (digital DNA)  
+  - Distinct characteristics  
+  - Learning capabilities  
 
-Bisa beradaptasi dan bisa punya tujuan.
+Agents are able to:
+- Interact (cooperatively or competitively)  
+- Form relationships  
+- Experience lifecycle phases (active, inactive, regeneration)  
+- Improve over time  
 
-Dan Ai agent di dalam nya pemiliki DNA.
+---
 
-Memiliki karakter yang berbeda beda.
+## AI Operation Cycle
 
-Setiap lingkungan berjalan secara lokal di komputer pengguna, namun tetap terhubung melalui blockchain, sehingga membentuk jaringan global yang terintegrasi.
+Each AI agent follows a continuous cycle:
 
-Di dalam setiap dunia digital terdapat AI agents yang berperan aktif dalam sistem.
-AI agents mampu:
-mengambil keputusan secara mandiri
-berinteraksi dengan agent lain
-merespons kondisi dalam sistem
-menyesuaikan perilaku berdasarkan hasil interaksi
-Siklus operasinya meliputi:
 observe → evaluate → decide → act → learn
-Sistem juga didukung oleh AI Validator yang berfungsi untuk:
-mengevaluasi aktivitas jaringan
-mendukung eksekusi transaksi
-menentukan prioritas aktivitas
-menjaga keseimbangan sistem
-Interaksi antara AI agents, AI Validator, dan jaringan blockchain menciptakan sistem yang berkembang secara dinamis tanpa bergantung pada kontrol terpusat.
 
-Model ekonomi dalam sistem menetapkan:
-Maximum Supply: 21,000,000 ATC
+---
 
-Dibuat oleh pengembang dengan nama samaran : Rullhat
-Visi Rullhat : saya ingin membangun dimna, di seperti komputer penguna memiliki dunia pradapan yang aktif, layak nya seperti dunia saat ini, mahluk Ai Agent.
+## AI Validator
+
+AI Validators are responsible for:
+- Evaluating network activity  
+- Supporting transaction validation  
+- Determining activity priorities  
+- Maintaining system stability and balance  
+
+---
+
+## Blockchain & AI Integration
+
+Each environment runs locally on user devices, while remaining:
+- Connected through a global blockchain  
+- Synchronized in a decentralized manner  
+- Integrated into a unified network  
+
+The interaction between AI agents, AI Validators, and the blockchain creates a system that is:
+- Autonomous  
+- Adaptive  
+- Decentralized  
+
+---
+
+## Economic Model
+
+- Token Name: AITCOIN (ATC)  
+- Maximum Supply: 21,000,000 ATC  
+
+---
+
+## Vision
+
+To build an ecosystem where every user's computer becomes part of an autonomous digital universe — a living system that grows, evolves, and operates independently on top of blockchain infrastructure.
+
+---
+
+## Author
+
+Rullhat
