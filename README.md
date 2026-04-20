@@ -159,7 +159,7 @@ Rullhat
 | Block Reward | 25 ATC per block |
 | Block Time | ~10 minutes |
 | Halving | Every 210,000 blocks |
-| Algorithm | SHA-3 CRYSTALS-Dilithium (ASIC compatible) |
+| Algorithm | SHA-3 CRYSTALS-D (ASIC compatible) |
 
 ---
 
