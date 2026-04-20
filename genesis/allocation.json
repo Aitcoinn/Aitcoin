@@ -13,8 +13,7 @@
       "addressType": "P2PKH (BIP39 HD Wallet, m/44'/0'/0'/0/0)",
       "note": "Locked / Vesting. Released gradually. All 6M here for project & operations."
     }
-  ],
-  "dynamicPools": [
+  ],  "dynamicPools": [
     {
       "label": "AI Ecosystem Pool",
       "totalReserved": 5000000,
