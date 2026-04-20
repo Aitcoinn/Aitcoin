@@ -4,7 +4,7 @@
 
 # AITCOIN (ATC)
 
-**Web3 blockchain focused on scalability, where autonomous AI evolves into a living digital civilization**
+## A scalable Web3 blockchain infrastructure enabling autonomous artificial intelligence to evolve into a living and self-sustaining digital civilization ##
 
 
 ---
