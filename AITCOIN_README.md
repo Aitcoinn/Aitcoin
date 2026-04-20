@@ -4,7 +4,7 @@
 
 | Parameter | Nilai |
 |---|---|
-| Algoritma | Proof of Work (SHA-256) |
+| Algoritma | Proof of Work (SHA-3) |
 | Total Supply | 12,000,000 ATC |
 | Block Reward | 25 ATC |
 | Halving Interval | 60,000 blok |
