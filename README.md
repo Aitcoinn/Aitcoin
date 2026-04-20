@@ -167,7 +167,7 @@ Rullhat
 | Allocation | Amount | % |
 |---|---|---|
 | PoW Mining Rewards | 12,000,000 ATC | 57.14% |
-| AI Ecosystem Fund | 5,000,000 ATC | 23.81% |
+| AI Mining Rewards | 5,000,000 ATC | 23.81% |
 | “Development funds are locked | 4,000,000 ATC | 19.05% |
 
 
