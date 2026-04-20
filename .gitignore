@@ -1,0 +1,35 @@
+# Environment & secrets — JANGAN commit ini
+.env
+*.env
+.env.*
+!.env.example
+
+# Wallet / seed phrase — JANGAN PERNAH commit ini
+*.seed
+*.mnemonic
+wallet_seed.txt
+
+# Build artifacts
+dist/
+node_modules/
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database local
+*.db
+*.sqlite
+
+# Local state & backups (contains sensitive wallet data)
+ai-layer/wallet_state/
+ai-layer/node_state/
+ai-layer/backups/
+ai-layer/dist/
+ai-layer/node_modules/
+ai-layer/node_state/node_keypair.json

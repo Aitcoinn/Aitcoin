@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aitcoin.io/schemas/tokenomics/v1",
+  "project": "AITCOIN",
+  "ticker": "ATC",
+  "maxSupply": 21000000,
+  "unit": "ATC",
+  "consensusAlgorithm": "Proof of Work (SHA-256)",
+  "blockReward": 25,
+  "blockRewardUnit": "ATC",
+  "halvingInterval": 210000,
+  "blockTimeSeconds": 600,
+  "allocations": [
+    {
+      "name": "Proof of Work Mining",
+      "amount": 10000000,
+      "percent": "47.62%",
+      "category": "mining",
+      "description": "Distributed to miners via block rewards. Halving every 210,000 blocks."
+    },
+    {
+      "name": "AI Ecosystem",
+      "type": "dynamic_pool",
+      "amount": 5000000,
+      "percent": "23.81%",
+      "category": "ecosystem",
+      "initial_distribution": "none",
+      "supplyRules": {
+        "noMint": true,
+        "fixedCap": 5000000,
+        "hardStop": "if (ai_pool_remaining <= 0) STOP all rewards permanently",
+        "singleSource": "ALL AI rewards must come exclusively from this 5,000,000 ATC pool",
+        "noBypass": "No secondary reward source, no overflow, no mint function"
+      },
+      "description": "Activity-based dynamic reward pool. NOT pre-mined. NOT in genesis. NO wallet. The system only DISTRIBUTES coins already allocated here — it never creates new coins. Hard stop when pool reaches zero."
+    },
+    {
+      "name": "Development Fund",
+      "amount": 4000000,
+      "percent": "19.05%",
+      "category": "development",
+      "description": "Core team: engineering, AI Life Layer, infrastructure, audits, listings.",
+      "vestingSchedule": {
+        "total": 4000000,
+        "immediateUnlock": 100000,
+        "immediateUnlockDescription": "100,000 ATC released immediately at genesis for initial operations",
+        "lockedAmount": 3900000,
+        "lockedDescription": "3,900,000 ATC locked in vesting — released gradually over 39 months",
+        "monthlyRelease": 100000,
+        "vestingPeriodMonths": 39,
+        "vestingModel": "linear_monthly",
+        "notes": "Each month, 100,000 ATC becomes claimable. After 39 months, all 4M ATC is fully distributed."
+      },
+      "wallet": {
+        "type": "BIP39 HD Wallet",
+        "derivationPath": "m/44'/0'/0'/0/0",
+        "network": "AITCOIN Mainnet"
+      }
+    },
+    {
+      "name": "Free Circulation",
+      "amount": 2000000,
+      "percent": "9.52%",
+      "category": "circulation",
+      "description": "Immediately liquid at genesis. Exchange liquidity, community distribution."
+    }
+  ],
+  "totalVerification": {
+    "sum": 21000000,
+    "breakdown": "Mining (10M) + AI Pool (5M) + Development (4M) + Circulation (2M) = 21M",
+    "valid": true
+  }
+}

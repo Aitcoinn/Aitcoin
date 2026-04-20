@@ -1,0 +1,94 @@
+import { logger } from '../lib/logger.js';
+
+/**
+ * CARRY_SYS — Module #1957
+ * Carrying system
+ * Kategori: GERAK & TINDAKAN
+ */
+export interface CarrySysState {
+  entityId: string;
+  active: boolean;
+  level: number;
+  intensity: number;
+  data: Record<string, unknown>;
+  history: string[];
+  updatedAt: number;
+}
+
+export class CarrySys {
+  private states: Map<string, CarrySysState> = new Map();
+
+  private getOrCreate(entityId: string): CarrySysState {
+    if (!this.states.has(entityId)) {
+      this.states.set(entityId, {
+        entityId,
+        active: false,
+        level: 0,
+        intensity: 0,
+        data: {},
+        history: [],
+        updatedAt: Date.now(),
+      });
+    }
+    return this.states.get(entityId)!;
+  }
+
+  activate(entityId: string, intensity = 50): CarrySysState {
+    const state = this.getOrCreate(entityId);
+    state.active = true;
+    state.level = Math.min(100, state.level + 1);
+    state.intensity = Math.max(0, Math.min(100, intensity));
+    state.history.push(`activated at ${new Date().toISOString()}`);
+    if (state.history.length > 50) state.history = state.history.slice(-50);
+    state.updatedAt = Date.now();
+    logger.info({ entityId, module: 'carry_sys', intensity }, '[CarrySys] Activated');
+    return state;
+  }
+
+  deactivate(entityId: string): void {
+    const state = this.getOrCreate(entityId);
+    state.active = false;
+    state.intensity = 0;
+    state.history.push(`deactivated at ${new Date().toISOString()}`);
+    state.updatedAt = Date.now();
+    logger.info({ entityId, module: 'carry_sys' }, '[CarrySys] Deactivated');
+  }
+
+  update(entityId: string, data: Record<string, unknown>): CarrySysState {
+    const state = this.getOrCreate(entityId);
+    state.data = { ...state.data, ...data };
+    state.updatedAt = Date.now();
+    logger.info({ entityId, module: 'carry_sys' }, '[CarrySys] Updated');
+    return state;
+  }
+
+  getState(entityId: string): CarrySysState | null {
+    return this.states.get(entityId) ?? null;
+  }
+
+  isActive(entityId: string): boolean {
+    return this.states.get(entityId)?.active ?? false;
+  }
+
+  getLevel(entityId: string): number {
+    return this.states.get(entityId)?.level ?? 0;
+  }
+
+  getIntensity(entityId: string): number {
+    return this.states.get(entityId)?.intensity ?? 0;
+  }
+
+  reset(entityId: string): void {
+    this.states.delete(entityId);
+    logger.info({ entityId, module: 'carry_sys' }, '[CarrySys] Reset');
+  }
+
+  getAllActive(): string[] {
+    return Array.from(this.states.entries())
+      .filter(([, s]) => s.active)
+      .map(([id]) => id);
+  }
+}
+
+export const carrySys = new CarrySys();
+export default carrySys;

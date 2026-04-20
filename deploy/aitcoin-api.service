@@ -1,0 +1,19 @@
+[Unit]
+Description=AITCOIN AI Layer Server
+After=network.target postgresql.service
+Requires=postgresql.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/aitcoin/ai-layer
+EnvironmentFile=/opt/aitcoin/ai-layer/.env
+ExecStart=/usr/bin/node -r tsx/esm src/index.ts
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=aitcoin-api
+
+[Install]
+WantedBy=multi-user.target
