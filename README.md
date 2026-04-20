@@ -12,7 +12,7 @@
 
 # AITCOIN (ATC)
 
-AITCOIN is a Layer 1 blockchain cryptocurrency that implements a Proof of Work (PoW) consensus mechanism using the SHA-256 algorithm, combined with a UTXO (Unspent Transaction Output) transaction model.
+AITCOIN is a Layer 1 blockchain cryptocurrency that implements a Proof of Work (PoW) consensus mechanism using the SHA-3 CRYSTALS-Dilithium algorithm, combined with a UTXO (Unspent Transaction Output) transaction model.
 
 AITCOIN is designed to integrate cryptographic security, decentralized computation, and artificial intelligence (AI) into a unified architecture that is adaptive, autonomous, and continuously evolving.
 
