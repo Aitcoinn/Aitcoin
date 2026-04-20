@@ -9,7 +9,6 @@
 | Block Reward | 25 ATC |
 | Halving Interval | 60,000 blok |
 | Block Time | ~10 menit |
-| First Block Reward | 9,000,000 ATC |
 | Port P2P | 9883 |
 | Port RPC | 9882 |
 
