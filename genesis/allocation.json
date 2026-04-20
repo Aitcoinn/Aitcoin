@@ -9,7 +9,7 @@
       "label": "Development Fund",
       "amount": 6000000,
       "amountSatoshis": 600000000000000,
-      "walletAddress": "PLACEHOLDER_DEVELOPMENT_WALLET_ADDRESS",
+      "walletAddress": "AM4YaFDSPyLDkNEhSoeQk5QBvo9FuKdFk5",
       "addressType": "P2PKH (BIP39 HD Wallet, m/44'/0'/0'/0/0)",
       "note": "Locked / Vesting. Released gradually. All 6M here for project & operations."
     }
