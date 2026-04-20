@@ -147,6 +147,7 @@ To build an ecosystem where every user's computer becomes part of an autonomous 
 
 Rullhat
 ---
+# Prioritizing security through the integration of quantum-resistant mechanisms to address future computing threats
 
 ## Key Facts
 
