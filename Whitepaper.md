@@ -131,6 +131,6 @@ To build an ecosystem where every user's computer becomes part of an autonomous 
 
 ---
 
-## Author
+## Founder
 
 Rullhat
