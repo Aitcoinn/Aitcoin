@@ -155,7 +155,7 @@ Rullhat
 |---|---|
 | Ticker | ATC |
 | Max Supply | 21,000,000 ATC |
-| Consensus | Proof of Work (SHA-256) |
+| Consensus | Proof of Work (SHA-3) |
 | Block Reward | 25 ATC per block |
 | Block Time | ~10 minutes |
 | Halving | Every 210,000 blocks |
