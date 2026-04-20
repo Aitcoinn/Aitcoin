@@ -1,5 +1,5 @@
 {
-  "network": "AITCOIN",
+  "network": "AITCOIN Network",
   "ticker": "ATC",
   "genesisDate": "2025",
   "maxSupply": 21000000,
@@ -7,19 +7,11 @@
   "preMineAllocations": [
     {
       "label": "Development Fund",
-      "amount": 4000000,
-      "amountSatoshis": 400000000000000,
+      "amount": 6000000,
+      "amountSatoshis": 600000000000000,
       "walletAddress": "PLACEHOLDER_DEVELOPMENT_WALLET_ADDRESS",
       "addressType": "P2PKH (BIP39 HD Wallet, m/44'/0'/0'/0/0)",
-      "note": "Replace with actual address before genesis deployment."
-    },
-    {
-      "label": "Free Circulation",
-      "amount": 2000000,
-      "amountSatoshis": 200000000000000,
-      "walletAddress": "PLACEHOLDER_CIRCULATION_WALLET_ADDRESS",
-      "addressType": "P2PKH",
-      "note": "Replace with exchange/liquidity wallet address before genesis. No lock period."
+      "note": "Locked / Vesting. Released gradually. All 6M here for project & operations."
     }
   ],
   "dynamicPools": [
@@ -41,8 +33,8 @@
   "supplyVerification": {
     "mining": 10000000,
     "aiPool": 5000000,
-    "development": 4000000,
-    "circulation": 2000000,
+    "development": 6000000,
+    "circulation": 0,
     "total": 21000000,
     "valid": true,
     "supplyControlNote": "AI pool is CAPPED at 5M. No mechanism exists to create coins beyond this allocation."
