@@ -1,4 +1,6 @@
-# AITCOIN (ATC)
+<p align="center">
+  <img src="doc/asets/logo.png" alt="Aitcoin Logo" width="200"/>
+</p># AITCOIN (ATC)
 
 **Web3 blockchain focused on scalability, where autonomous AI evolves into a living digital civilization**
 
