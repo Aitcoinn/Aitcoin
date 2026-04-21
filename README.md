@@ -226,7 +226,7 @@ aitcoin/
 
 ```bash
 # Clone
-git clone https://github.com/your-org/aitcoin.git
+git clone https://github.com/Aitcoinn/Aitcoin.git
 cd aitcoin
 
 # Install dependencies
