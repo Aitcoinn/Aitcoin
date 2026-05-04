@@ -72,7 +72,7 @@ Each device in the network operates a local digital environment with the followi
 
 Within each digital environment:
 
-- Limited population (e.g., 100 agents per node)  
+- Limited population (e.g., 1000 agents per node)  
 - Each agent has:
   - A unique identity (digital DNA)  
   - Distinct characteristics  
